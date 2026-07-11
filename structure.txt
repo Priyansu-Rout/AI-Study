@@ -1,0 +1,485 @@
+
+├── ROADMAP.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── CHANGELOG.md
+├── .gitignore
+├── .gitmodules
+├── requirements.txt
+├── pyproject.toml
+│
+├── assets/
+│   ├── images/
+│   ├── diagrams/
+│   ├── gifs/
+│   └── logos/
+│
+├── cheatsheets/
+│   ├── Python.md
+│   ├── NumPy.md
+│   ├── Pandas.md
+│   ├── Scikit-Learn.md
+│   ├── TensorFlow.md
+│   ├── PyTorch.md
+│   ├── SQL.md
+│   ├── Linux.md
+│   ├── Git.md
+│   └── Docker.md
+│
+├── interview-preparation/
+│   ├── README.md
+│   ├── Machine-Learning/
+│   │   ├── Questions.md
+│   │   ├── Answers.md
+│   │   └── Coding-Rounds.md
+│   ├── Deep-Learning/
+│   │   ├── Questions.md
+│   │   └── Answers.md
+│   ├── NLP/
+│   │   ├── Questions.md
+│   │   └── Answers.md
+│   ├── Computer-Vision/
+│   │   ├── Questions.md
+│   │   └── Answers.md
+│   ├── Generative-AI/
+│   │   ├── Questions.md
+│   │   └── Answers.md
+│   ├── Agentic-AI/
+│   │   ├── Questions.md
+│   │   └── Answers.md
+│   └── System-Design/
+│       ├── Questions.md
+│       └── Case-Studies.md
+│
+├── resources/
+│   ├── Books.md
+│   ├── Courses.md
+│   ├── Papers.md
+│   ├── Blogs.md
+│   └── YouTube.md
+│
+├── projects/
+│   ├── README.md
+│   ├── Beginner/
+│   │   ├── House-Price-Prediction.md
+│   │   ├── Titanic-Classification.md
+│   │   └── Movie-Recommendation.md
+│   ├── Intermediate/
+│   │   ├── Sentiment-Analysis-App.md
+│   │   ├── Image-Classifier-CNN.md
+│   │   └── Chatbot-with-RAG.md
+│   └── Advanced/
+│       ├── Fine-Tune-LLM-LoRA.md
+│       ├── Multi-Agent-Research-Assistant.md
+│       └── End-to-End-MLOps-Pipeline.md
+│
+├── datasets/
+│   └── README.md
+│
+├── tools/
+│   ├── README.md
+│   ├── setup_env.sh
+│   └── check_gpu.py
+│
+├── 00-Mathematics                 
+│
+├── 01-Python/
+│   ├── README.md
+│   ├── 01-Basics/
+│   │   ├── Notes.md
+│   │   ├── Examples.md
+│   │   └── Practice.md
+│   ├── 02-Data-Structures/
+│   │   ├── Lists.md
+│   │   ├── Tuples.md
+│   │   ├── Dictionaries.md
+│   │   ├── Sets.md
+│   │   └── Practice.md
+│   ├── 03-OOP/
+│   │   ├── Classes-Objects.md
+│   │   ├── Inheritance.md
+│   │   ├── Polymorphism.md
+│   │   ├── Encapsulation.md
+│   │   └── Practice.md
+│   ├── 04-Functional-Programming/
+│   │   ├── Lambda.md
+│   │   ├── Map-Filter-Reduce.md
+│   │   └── Practice.md
+│   ├── 05-Iterators-Generators/
+│   │   ├── Iterators.md
+│   │   ├── Generators.md
+│   │   └── Practice.md
+│   ├── 06-Decorators/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   ├── 07-File-Handling/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   ├── 08-Error-Handling/
+│   │   ├── Try-Except.md
+│   │   ├── Custom-Exceptions.md
+│   │   └── Practice.md
+│   ├── 09-Virtual-Envs-Packaging/
+│   │   ├── venv-conda.md
+│   │   └── Packaging-Basics.md
+│   └── Practice-Problems.md
+│
+├── 02-Data-Analysis/
+│   ├── README.md
+│   ├── 01-NumPy/
+│   │   ├── Arrays.md
+│   │   ├── Broadcasting.md
+│   │   ├── Indexing-Slicing.md
+│   │   └── NumPy.ipynb
+│   ├── 02-Pandas/
+│   │   ├── Series-DataFrame.md
+│   │   ├── Indexing-Filtering.md
+│   │   ├── GroupBy.md
+│   │   ├── Merging-Joining.md
+│   │   └── Pandas.ipynb
+│   ├── 03-Data-Cleaning/
+│   │   ├── Missing-Values.md
+│   │   ├── Outliers.md
+│   │   ├── Duplicates.md
+│   │   └── Practice.md
+│   ├── 04-Exploratory-Data-Analysis/
+│   │   ├── Univariate-Analysis.md
+│   │   ├── Bivariate-Analysis.md
+│   │   └── EDA.ipynb
+│   ├── 05-Visualization-Matplotlib-Seaborn/
+│   │   ├── Matplotlib-Basics.md
+│   │   ├── Seaborn-Basics.md
+│   │   └── Visualization.ipynb
+│   ├── 06-Feature-Engineering/
+│   │   ├── Encoding.md
+│   │   ├── Scaling-Normalization.md
+│   │   ├── Feature-Creation.md
+│   │   └── Practice.md
+│   └── Practice-Problems.md
+│
+├── 03-Machine-Learning/
+│   ├── README.md
+│   ├── 01-Supervised-Learning/
+│   │   ├── Overview.md
+│   │   └── Examples.md
+│   ├── 02-Unsupervised-Learning/
+│   │   ├── Overview.md
+│   │   └── Examples.md
+│   ├── 03-Regression/
+│   │   ├── Linear-Regression.md
+│   │   ├── Polynomial-Regression.md
+│   │   ├── Ridge-Lasso.md
+│   │   └── Practice.md
+│   ├── 04-Classification/
+│   │   ├── Logistic-Regression.md
+│   │   ├── KNN.md
+│   │   ├── SVM.md
+│   │   ├── Decision-Trees.md
+│   │   ├── Naive-Bayes.md
+│   │   └── Practice.md
+│   ├── 05-Clustering/
+│   │   ├── K-Means.md
+│   │   ├── Hierarchical-Clustering.md
+│   │   ├── DBSCAN.md
+│   │   └── Practice.md
+│   ├── 06-Ensemble-Methods/
+│   │   ├── Bagging.md
+│   │   ├── Boosting.md
+│   │   ├── Random-Forest.md
+│   │   ├── XGBoost.md
+│   │   ├── LightGBM.md
+│   │   └── Practice.md
+│   ├── 07-Model-Evaluation/
+│   │   ├── Metrics-Classification.md
+│   │   ├── Metrics-Regression.md
+│   │   ├── Confusion-Matrix.md
+│   │   ├── ROC-AUC.md
+│   │   └── Practice.md
+│   ├── 08-Cross-Validation/
+│   │   ├── K-Fold.md
+│   │   ├── Stratified-K-Fold.md
+│   │   └── Practice.md
+│   ├── 09-Feature-Selection/
+│   │   ├── Filter-Methods.md
+│   │   ├── Wrapper-Methods.md
+│   │   ├── Embedded-Methods.md
+│   │   └── Practice.md
+│   ├── 10-Scikit-Learn-Practicals/
+│   │   ├── Pipelines.md
+│   │   └── Sklearn-Practicals.ipynb
+│   └── Practice-Problems.md
+│
+├── 04-Deep-Learning/
+│   ├── README.md
+│   ├── 01-Neural-Network-Basics/
+│   │   ├── Perceptron.md
+│   │   ├── MLP.md
+│   │   └── Forward-Pass.md
+│   ├── 02-Backpropagation/
+│   │   ├── Notes.md
+│   │   └── Worked-Example.md
+│   ├── 03-Activation-Functions/
+│   │   ├── Sigmoid-Tanh-ReLU.md
+│   │   ├── Leaky-ReLU-GELU-Swish.md
+│   │   └── Practice.md
+│   ├── 04-CNNs/
+│   │   ├── Convolution-Basics.md
+│   │   ├── Pooling.md
+│   │   ├── Architectures-LeNet-ResNet-VGG.md
+│   │   └── CNN.ipynb
+│   ├── 05-RNNs-LSTMs-GRUs/
+│   │   ├── RNN-Basics.md
+│   │   ├── LSTM.md
+│   │   ├── GRU.md
+│   │   └── RNN.ipynb
+│   ├── 06-Transformers/
+│   │   ├── Self-Attention.md
+│   │   ├── Multi-Head-Attention.md
+│   │   ├── Positional-Encoding.md
+│   │   ├── Encoder-Decoder.md
+│   │   └── Transformer.ipynb
+│   ├── 07-Regularization-Dropout-BatchNorm/
+│   │   ├── Dropout.md
+│   │   ├── BatchNorm-LayerNorm.md
+│   │   ├── Early-Stopping.md
+│   │   └── Practice.md
+│   ├── 08-Transfer-Learning/
+│   │   ├── Notes.md
+│   │   └── Fine-Tuning-Examples.md
+│   ├── 09-PyTorch-Practicals/
+│   │   ├── Tensors.md
+│   │   ├── Autograd.md
+│   │   ├── nn-Module.md
+│   │   └── PyTorch.ipynb
+│   ├── 10-TensorFlow-Practicals/
+│   │   ├── Tensors-Keras.md
+│   │   └── TensorFlow.ipynb
+│   └── Practice-Problems.md
+│
+├── 05-Natural-Language-Processing/
+│   ├── README.md
+│   ├── 01-Text-Preprocessing/
+│   │   ├── Cleaning.md
+│   │   ├── Stopwords-Stemming-Lemmatization.md
+│   │   └── Practice.md
+│   ├── 02-Tokenization/
+│   │   ├── Word-Char-Tokenization.md
+│   │   ├── BPE.md
+│   │   ├── WordPiece-SentencePiece.md
+│   │   └── Practice.md
+│   ├── 03-Word-Embeddings/
+│   │   ├── One-Hot.md
+│   │   ├── Word2Vec.md
+│   │   ├── GloVe.md
+│   │   ├── FastText.md
+│   │   └── Embeddings.ipynb
+│   ├── 04-Sequence-Models/
+│   │   ├── Seq2Seq.md
+│   │   └── Practice.md
+│   ├── 05-Attention-Mechanism/
+│   │   ├── Notes.md
+│   │   └── Attention.ipynb
+│   ├── 06-Transformer-Architectures/
+│   │   ├── BERT.md
+│   │   ├── GPT.md
+│   │   ├── T5.md
+│   │   └── Practice.md
+│   ├── 07-Named-Entity-Recognition/
+│   │   ├── Notes.md
+│   │   └── NER.ipynb
+│   ├── 08-Sentiment-Analysis/
+│   │   ├── Notes.md
+│   │   └── Sentiment.ipynb
+│   ├── 09-Text-Classification/
+│   │   ├── Notes.md
+│   │   └── Text-Classification.ipynb
+│   └── Practice-Problems.md
+│
+├── 06-Computer-Vision/
+│   ├── README.md
+│   ├── 01-Image-Basics/
+│   │   ├── Pixels-Color-Spaces.md
+│   │   └── OpenCV-Basics.md
+│   ├── 02-Convolution-Pooling/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   ├── 03-Image-Classification/
+│   │   ├── Notes.md
+│   │   └── Image-Classification.ipynb
+│   ├── 04-Object-Detection/
+│   │   ├── YOLO.md
+│   │   ├── Faster-RCNN.md
+│   │   ├── SSD.md
+│   │   └── Practice.md
+│   ├── 05-Segmentation/
+│   │   ├── Semantic-Segmentation.md
+│   │   ├── Instance-Segmentation.md
+│   │   ├── U-Net.md
+│   │   └── Practice.md
+│   ├── 06-Image-Augmentation/
+│   │   ├── Notes.md
+│   │   └── Augmentation.ipynb
+│   ├── 07-Vision-Transformers/
+│   │   ├── ViT.md
+│   │   └── Practice.md
+│   └── Practice-Problems.md
+│
+├── 07-Generative-AI/
+│   ├── README.md
+│   ├── 01-LLM-Fundamentals/
+│   │   ├── How-LLMs-Work.md
+│   │   ├── Training-Pretraining-Finetuning.md
+│   │   └── Tokenization-Context-Window.md
+│   ├── 02-Prompt-Engineering/
+│   │   ├── Zero-Few-Shot.md
+│   │   ├── Chain-of-Thought.md
+│   │   ├── Prompt-Patterns.md
+│   │   └── Practice.md
+│   ├── 03-Fine-Tuning-LoRA-QLoRA/
+│   │   ├── Full-Fine-Tuning.md
+│   │   ├── LoRA.md
+│   │   ├── QLoRA.md
+│   │   └── Fine-Tuning.ipynb
+│   ├── 04-RAG/
+│   │   ├── Architecture.md
+│   │   ├── Vector-Databases.md
+│   │   ├── Chunking-Strategies.md
+│   │   ├── Retrieval-Ranking.md
+│   │   └── RAG.ipynb
+│   ├── 05-Diffusion-Models/
+│   │   ├── DDPM.md
+│   │   ├── Stable-Diffusion.md
+│   │   └── Practice.md
+│   ├── 06-GANs/
+│   │   ├── Generator-Discriminator.md
+│   │   ├── DCGAN.md
+│   │   └── Practice.md
+│   ├── 07-VAEs/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   ├── 08-Multimodal-Models/
+│   │   ├── CLIP.md
+│   │   ├── Vision-Language-Models.md
+│   │   └── Practice.md
+│   └── Practice-Problems.md
+│
+├── 08-Agentic-AI/
+│   ├── README.md
+│   ├── 01-Agent-Fundamentals/
+│   │   ├── What-is-an-Agent.md
+│   │   └── Agent-Loop.md
+│   ├── 02-Tool-Use-Function-Calling/
+│   │   ├── Notes.md
+│   │   └── Function-Calling.ipynb
+│   ├── 03-Memory-Systems/
+│   │   ├── Short-Term-Memory.md
+│   │   ├── Long-Term-Memory.md
+│   │   └── Vector-Memory.md
+│   ├── 04-Planning-Reasoning/
+│   │   ├── ReAct.md
+│   │   ├── Tree-of-Thought.md
+│   │   └── Practice.md
+│   ├── 05-Multi-Agent-Systems/
+│   │   ├── Orchestration.md
+│   │   ├── Agent-Communication.md
+│   │   └── Practice.md
+│   ├── 06-MCP/
+│   │   ├── What-is-MCP.md
+│   │   ├── Building-an-MCP-Server.md
+│   │   └── Practice.md
+│   ├── 07-Agent-Frameworks/
+│   │   ├── LangChain-LangGraph.md
+│   │   ├── AutoGen-CrewAI.md
+│   │   └── Comparison.md
+│   └── Practice-Problems.md
+│
+├── 09-MLOps/
+│   ├── README.md
+│   ├── 01-Experiment-Tracking/
+│   │   ├── MLflow.md
+│   │   ├── Weights-and-Biases.md
+│   │   └── Practice.md
+│   ├── 02-Model-Versioning/
+│   │   ├── DVC.md
+│   │   └── Practice.md
+│   ├── 03-CI-CD-for-ML/
+│   │   ├── GitHub-Actions-for-ML.md
+│   │   └── Practice.md
+│   ├── 04-Model-Serving/
+│   │   ├── REST-APIs-FastAPI.md
+│   │   ├── Batch-vs-Realtime.md
+│   │   └── Practice.md
+│   ├── 05-Containerization-Docker/
+│   │   ├── Dockerfile-Basics.md
+│   │   └── Practice.md
+│   ├── 06-Orchestration-Kubernetes/
+│   │   ├── Kubernetes-Basics.md
+│   │   └── Practice.md
+│   ├── 07-Monitoring-Drift-Detection/
+│   │   ├── Data-Drift.md
+│   │   ├── Model-Drift.md
+│   │   └── Practice.md
+│   ├── 08-Model-Registry/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   └── Practice-Problems.md
+│
+├── 10-Cloud-for-AI/
+│   ├── README.md
+│   ├── 01-AWS-for-AI/
+│   │   ├── SageMaker.md
+│   │   └── Practice.md
+│   ├── 02-GCP-for-AI/
+│   │   ├── Vertex-AI.md
+│   │   └── Practice.md
+│   ├── 03-Azure-for-AI/
+│   │   ├── Azure-ML.md
+│   │   └── Practice.md
+│   ├── 04-Cost-Optimization/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   └── Practice-Problems.md
+│
+├── 11-System-Design/
+│   ├── README.md
+│   ├── 01-ML-System-Design-Basics/
+│   │   ├── Framework-for-Answering.md
+│   │   └── Practice.md
+│   ├── 02-Feature-Stores/
+│   │   ├── Notes.md
+│   │   └── Practice.md
+│   ├── 03-Scalable-Training-Pipelines/
+│   │   ├── Distributed-Training.md
+│   │   └── Practice.md
+│   ├── 04-Serving-at-Scale/
+│   │   ├── Load-Balancing.md
+│   │   ├── Caching.md
+│   │   └── Practice.md
+│   ├── 05-Case-Studies/
+│   │   ├── Recommendation-System.md
+│   │   ├── Search-Ranking.md
+│   │   ├── Fraud-Detection.md
+│   │   └── LLM-Chat-Product.md
+│   └── Practice-Problems.md
+│
+└── 12-Research-Papers/
+    ├── README.md
+    ├── Foundational/
+    │   ├── AlexNet.md
+    │   ├── ResNet.md
+    │   └── Adam-Optimizer.md
+    ├── Transformers-Attention/
+    │   ├── Attention-Is-All-You-Need.md
+    │   ├── BERT.md
+    │   └── GPT-Series.md
+    ├── LLMs/
+    │   ├── LLaMA.md
+    │   ├── Mixtral.md
+    │   └── Scaling-Laws.md
+    ├── Diffusion-GenAI/
+    │   ├── DDPM.md
+    │   └── Stable-Diffusion.md
+    ├── Agentic-AI/
+    │   ├── ReAct-Paper.md
+    │   └── Toolformer.md
+    └── Reading-Notes-Template.md
